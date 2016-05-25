@@ -407,7 +407,7 @@ time, mark, audio, video {
 }
 /* line 40, ../sass/_about.scss */
 .about_section .intro_text_section h1 {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Playfair Display SC', serif;
   font-weight: 600;
   text-transform: Uppercase;
   margin-bottom: 0.5em;
@@ -1630,7 +1630,7 @@ body text {
 }
 /* line 77, ../sass/style.scss */
 body h1 {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Playfair Display SC', serif;
   font-size: 2em;
   font-weight: 600;
   text-transform: Uppercase;
