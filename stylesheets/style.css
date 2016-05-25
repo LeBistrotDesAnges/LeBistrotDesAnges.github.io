@@ -1071,7 +1071,7 @@ time, mark, audio, video {
   position: absolute;
   width: 50%;
   padding: 1.5em 1.5em;
-  height: 7EM;
+  height: 8EM;
   margin-left: -25%;
   text-align: center;
   background-image: url("../img/img_bg/encre.png");
@@ -1081,18 +1081,39 @@ time, mark, audio, video {
   margin-top: -3.5em;
   border: 3px solid white;
 }
+@media (min-width: 481px) {
+  /* line 144, ../sass/_menu.scss */
+  .menu_section .picture_menu_section .overlay_menu .overlay_menu_inner {
+    height: 9em;
+    margin-top: -4.5em;
+  }
+}
 @media (min-width: 641px) {
   /* line 144, ../sass/_menu.scss */
   .menu_section .picture_menu_section .overlay_menu .overlay_menu_inner {
-    height: 10em;
-    margin-top: -5em;
+    height: 11em;
+    margin-top: -5.5em;
   }
 }
-/* line 160, ../sass/_menu.scss */
+@media (min-width: 961px) {
+  /* line 144, ../sass/_menu.scss */
+  .menu_section .picture_menu_section .overlay_menu .overlay_menu_inner {
+    height: 9em;
+    margin-top: -4.5em;
+  }
+}
+@media (min-width: 1025px) {
+  /* line 144, ../sass/_menu.scss */
+  .menu_section .picture_menu_section .overlay_menu .overlay_menu_inner {
+    height: 9em;
+    margin-top: -4.5em;
+  }
+}
+/* line 166, ../sass/_menu.scss */
 .menu_section .picture_menu_section .overlay_menu .overlay_menu_inner .section_title_menu {
   color: #fff;
 }
-/* line 162, ../sass/_menu.scss */
+/* line 168, ../sass/_menu.scss */
 .menu_section .picture_menu_section .overlay_menu .overlay_menu_inner .section_title_menu h2 {
   color: #fff;
 }
@@ -1190,19 +1211,20 @@ time, mark, audio, video {
 @media (min-width: 961px) {
   /* line 35, ../sass/_contact.scss */
   .contact_section .contact_list_container .map_overlay {
-    height: 57em;
-    padding-top: 6em;
-    padding-bottom: 4em;
+    height: 70em;
+    padding-top: 5em;
+    padding-bottom: 5em;
   }
 }
 @media (min-width: 1025px) {
   /* line 35, ../sass/_contact.scss */
   .contact_section .contact_list_container .map_overlay {
-    padding-top: 7em;
-    padding-bottom: 4em;
+    height: 66em;
+    padding-top: 8em;
+    padding-bottom: 5em;
   }
 }
-/* line 50, ../sass/_contact.scss */
+/* line 52, ../sass/_contact.scss */
 .contact_section .contact_list_container .map_overlay .contact_text_section {
   overflow: hidden;
   height: auto;
@@ -1212,23 +1234,23 @@ time, mark, audio, video {
   text-align: center;
   margin-bottom: 4em;
 }
-/* line 58, ../sass/_contact.scss */
+/* line 60, ../sass/_contact.scss */
 .contact_section .contact_list_container .map_overlay .contact_text_section header {
   color: #fff;
 }
-/* line 59, ../sass/_contact.scss */
+/* line 61, ../sass/_contact.scss */
 .contact_section .contact_list_container .map_overlay .contact_text_section h2 {
   color: #fff;
 }
-/* line 60, ../sass/_contact.scss */
+/* line 62, ../sass/_contact.scss */
 .contact_section .contact_list_container .map_overlay .contact_text_section h5 {
   color: #fff;
 }
-/* line 61, ../sass/_contact.scss */
+/* line 63, ../sass/_contact.scss */
 .contact_section .contact_list_container .map_overlay .contact_text_section h6 {
   color: #fff;
 }
-/* line 62, ../sass/_contact.scss */
+/* line 64, ../sass/_contact.scss */
 .contact_section .contact_list_container .map_overlay .contact_text_section .ornament_contact {
   width: 220px;
   height: 18.5px;
@@ -1238,7 +1260,7 @@ time, mark, audio, video {
   margin-top: 1.3em;
 }
 @media (min-width: 481px) {
-  /* line 62, ../sass/_contact.scss */
+  /* line 64, ../sass/_contact.scss */
   .contact_section .contact_list_container .map_overlay .contact_text_section .ornament_contact {
     width: 300px;
     height: 25px;
@@ -1248,31 +1270,31 @@ time, mark, audio, video {
     margin-top: 1.3em;
   }
 }
-/* line 81, ../sass/_contact.scss */
+/* line 83, ../sass/_contact.scss */
 .contact_section .contact_list_container .map_overlay .contact_text_section p {
   margin-top: 1.7em;
   color: #fff;
   padding: 0em 1.5em;
 }
 @media (min-width: 961px) {
-  /* line 81, ../sass/_contact.scss */
+  /* line 83, ../sass/_contact.scss */
   .contact_section .contact_list_container .map_overlay .contact_text_section p {
     padding-right: 7.5em;
     padding-left: 7.5em;
   }
 }
-/* line 91, ../sass/_contact.scss */
+/* line 94, ../sass/_contact.scss */
 .contact_section .contact_list_container .map_overlay .contact_text_section .email {
   font-family: 'Lato', sans-serif;
   font-size: 1.2em;
   color: #fff;
   text-decoration: underline;
 }
-/* line 97, ../sass/_contact.scss */
+/* line 100, ../sass/_contact.scss */
 .contact_section .contact_list_container .map_overlay .contact_text_section .email:hover {
   color: crimson;
 }
-/* line 104, ../sass/_contact.scss */
+/* line 107, ../sass/_contact.scss */
 .contact_section .contact_list_container .map_overlay .inner_map_overlay {
   width: 82%;
   padding: 30px 40px 0px 40px;
@@ -1284,19 +1306,19 @@ time, mark, audio, video {
   border: double 3px #fff;
 }
 @media (min-width: 681px) {
-  /* line 104, ../sass/_contact.scss */
+  /* line 107, ../sass/_contact.scss */
   .contact_section .contact_list_container .map_overlay .inner_map_overlay {
     width: 66%;
     padding: 30px 70px 0px 70px;
   }
 }
-/* line 119, ../sass/_contact.scss */
+/* line 122, ../sass/_contact.scss */
 .contact_section .contact_list_container .map_overlay .inner_map_overlay .inner_map_title {
   text-align: center;
   margin-bottom: 2em;
   letter-spacing: 0.2em;
 }
-/* line 124, ../sass/_contact.scss */
+/* line 127, ../sass/_contact.scss */
 .contact_section .contact_list_container .map_overlay .inner_map_overlay .inner_map_title .contact_info {
   font-size: 1em;
   color: #fff;
@@ -1305,16 +1327,16 @@ time, mark, audio, video {
   padding-bottom: 0.5em;
   margin-bottom: 0.7em;
 }
-/* line 132, ../sass/_contact.scss */
+/* line 135, ../sass/_contact.scss */
 .contact_section .contact_list_container .map_overlay .inner_map_overlay .inner_map_title .hours {
   margin-bottom: 1em;
 }
-/* line 136, ../sass/_contact.scss */
+/* line 139, ../sass/_contact.scss */
 .contact_section .contact_list_container .map_overlay .inner_map_overlay .inner_map_title p {
   font-size: 0.8em;
   font-weight: 600;
 }
-/* line 140, ../sass/_contact.scss */
+/* line 143, ../sass/_contact.scss */
 .contact_section .contact_list_container .map_overlay .inner_map_overlay .inner_map_title .conditions {
   font-family: 'Lato', sans-serif;
   font-size: 0.8em;
@@ -1323,23 +1345,35 @@ time, mark, audio, video {
   text-transform: none;
   font-style: italic;
 }
-/* line 152, ../sass/_contact.scss */
+/* line 155, ../sass/_contact.scss */
 .contact_section .contact_list_container .location {
   width: 100%;
 }
-/* line 154, ../sass/_contact.scss */
+/* line 157, ../sass/_contact.scss */
 .contact_section .contact_list_container .location #map {
-  height: 57em;
+  height: 40em;
   width: 100%;
 }
-/* line 157, ../sass/_contact.scss */
+@media (min-width: 961px) {
+  /* line 157, ../sass/_contact.scss */
+  .contact_section .contact_list_container .location #map {
+    height: 70em;
+  }
+}
+@media (min-width: 1025px) {
+  /* line 157, ../sass/_contact.scss */
+  .contact_section .contact_list_container .location #map {
+    height: 66em;
+  }
+}
+/* line 166, ../sass/_contact.scss */
 .contact_section .contact_list_container .location #map a {
   border-bottom: none;
   box-shadow: none;
   color: none;
   text-decoration: none;
 }
-/* line 163, ../sass/_contact.scss */
+/* line 172, ../sass/_contact.scss */
 .contact_section .contact_list_container .location #map a:hover {
   background-color: none;
   text-decoration: none;
